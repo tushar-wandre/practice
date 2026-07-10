@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+
+    int arr[4][3];
+    printf("Enter any 12 elements:\n");
+    for(int i=0; i<4; i++){
+        for(int j=0; j<3; j++){
+            scanf("%d",&arr[i][j]);
+        }
+    }
+    printf("array elements in 4 by 3 form\n");
+    for (int i=0; i<4; i++){
+        for(int j=0; j<3; j++){
+            printf("%d",arr[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
