@@ -2,6 +2,8 @@
 int main() {
     float a,b,result;
     int choice;
+     
+
     printf("1. ADDITION(+):\n");
     printf("2. Substraction(-)\n");
     printf("3. Multiplication(*)\n");
@@ -18,17 +20,17 @@ int main() {
    switch(choice){
     case 1:
     result=a+b;
-    printf("sum=%f",result);
+    printf("sumation=%.2f",result);
     break;
 
     case 2:
     result=a-b;
-    printf("sub=%f",result);
+    printf("subtraction=%.2f",result);
     break;
 
     case 3:
     result=a*b;
-    printf("mult=%f",result);
+    printf("multiplication=%.2f",result);
     break;
 
     case 4:
@@ -37,7 +39,7 @@ int main() {
     }
     else{
         result=a/b;
-        printf("div=%f",result);
+        printf("divsion=%.2f",result);
         
     }
     break;
